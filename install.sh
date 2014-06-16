@@ -48,7 +48,7 @@ cd /
 
 echo `date +"%Y-%m-%d %T "`"installing scripta for A2 miners"
 cd /tmp
-wget --no-check-certificate -O scriptaming.zip  https://github.com/MinerEU/scripta_a2/archive/master.zip
+wget --no-check-certificate -O scriptaming.zip  https://github.com/FinalHash/scripta_a2/archive/master.zip
 unzip -o scriptaming.zip
 cd scripta_a2-master/
 cp -fr etc opt var /
