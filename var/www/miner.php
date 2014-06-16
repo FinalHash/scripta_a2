@@ -140,7 +140,6 @@ $statspage         = array(
         'Accepted',
         'Rejected=Rej',
         'Utility',
-        'Hardware Errors=HW Errs',
         'Network Blocks=Net Blks',
         'Work Utility'
     ),
@@ -174,7 +173,6 @@ $poolspage         = array(
         'Accepted',
         'Rejected=Rej',
         'Utility',
-        'Hardware Errors=HW Errs',
         'Network Blocks=Net Blks',
         'Work Utility'
     ),
@@ -202,7 +200,6 @@ $poolssum          = array(
         'Accepted',
         'Rejected',
         'Utility',
-        'Hardware Errors',
         'Work Utility'
     ),
     'POOL+STATS' => array(
@@ -398,7 +395,6 @@ function htmlhead($checkapi, $rig, $pg = null, $noscript = false)
 td { $miner_font " . getcss('td') . "}
 td.two { $miner_font " . getcss('td.two') . "}
 td.h { $miner_font " . getcss('td.h') . "}
-td.err { $miner_font " . getcss('td.err') . "}
 td.warn { $miner_font " . getcss('td.warn') . "}
 td.sta { $miner_font " . getcss('td.sta') . "}
 td.tot { $miner_font " . getcss('td.tot') . "}
